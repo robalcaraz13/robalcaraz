@@ -113,7 +113,7 @@ enableEmoji = true
   [[menu.header]]
     name = "Posts"
     title = "Posts"
-    url = "/posts/"
+    url = "/blog/"
     weight = 2
   [[menu.header]]
     name = "Projects"
