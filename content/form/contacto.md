@@ -1,8 +1,8 @@
 ---
 date: "2019-02-25T13:38:41-06:00"
 description: Si tienes cualquier duda o sugerencia respecto a cualquier cosa, puedes contactar conmigo mediante las cajas de la derecha o, si lo prefieres, escríbeme directamente a roberto@irba.es :)
-draft: true
-formspree_form_id: roberto@irba.es
+draft: false
+formspree_form_id: 
 layout: split-right
 name: Contact Us Form
 show_poweredby_formspree: true
