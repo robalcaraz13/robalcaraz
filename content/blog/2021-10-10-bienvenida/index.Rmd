@@ -1,0 +1,25 @@
+---
+author: Roberto Alcaraz
+date: "10/10/2021"
+draft: false
+excerpt: Mi primer post
+layout: single
+subtitle: Mi nuevo espacio
+title: Bienvenidos
+---
+
+# Instalación de paquetes
+```{r}
+# install.packages(c("pacman", "remotes"))
+# BiocManager::install(version = '3.13')
+# remotes::install_version("SDMTools", "1.1-221")
+# devtools::install_github("statsbomb/StatsBombR")
+# devtools::install_github("jogall/soccermatics")
+# remotes::install_github("r-link/corrmorant")
+
+# Data analysis packages
+pacman::p_load(tidyverse, tidymodels, ggcorrplot)
+
+# Librerías de fútbol (no están en CRAN)
+pacman::p_load(StatsBombR, soccermatics)
+```
