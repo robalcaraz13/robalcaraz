@@ -1,5 +1,5 @@
-{{ $previous_label := "Newer" }}
-{{ $next_label := "Older" }}
+{{ $previous_label := "+nuevos" }}
+{{ $next_label := "+antiguos" }}
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 }}
 <div class="list-pagination w-100">
@@ -12,7 +12,7 @@
     {{ end }}
     </li>
     <li class="dtc w-50 v-mid">
-      <span class="page_number fw6 f7 ttu tracked">{{ $pag.PageNumber }} of {{ $pag.TotalPages }}</span>
+      <span class="page_number fw6 f7 ttu tracked">{{ $pag.PageNumber }} de {{ $pag.TotalPages }}</span>
     </li>
     <li class="dtc w-25 tr v-mid">
     {{ if $pag.HasNext }}
