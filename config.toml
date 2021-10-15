@@ -37,7 +37,7 @@ enableEmoji = true
 [params]
   orgName = "Roberto J. Alcaraz Molina"
   orgLocal = ""
-  description = "Aspiring ."
+  description = "Aspiring."
   favicon = "/img/favicon.ico" # small logo
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["Posts", "project", "talk"]
@@ -48,7 +48,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/ralcaraz.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "roberalcaraz_"
   
@@ -68,7 +68,7 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customheadingFontFamily = "EB Garamond"
+  customheadingFontFamily = "Bitter"
   customtextFontFamily = "Atkinson Hyperlegible"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
@@ -107,6 +107,9 @@ enableEmoji = true
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://www.linkedin.com/in/rojealmo/"
+  [[params.education]]
+      icon      = "graduation-cap" # icon name without the 'fa-'
+      icon_pack = "fab"
 
 [taxonomies]
   category = "categories"
@@ -116,20 +119,20 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "Sobre mí"
-    title = "About Blogophonic"
-    url = "/about/"
+    name = "Inicio"
+    title = "Inicio"
+    url = "/"
     weight = 1
   [[menu.header]]
-    name = "Posts"
-    title = "Posts"
+    name = "Blog"
+    title = "Blog"
     url = "/blog/"
-    weight = 2
+    weight = 3
   [[menu.header]]
     name = "Projects"
     title = "Project Portfolio"
     url = "/project/"
-    weight = 3
+    weight = 4
   [[menu.header]]
     name = "A collection"
     title = "A collection"
@@ -140,6 +143,16 @@ enableEmoji = true
     title = "Element Page"
     url = "/elements/"
     weight = 6
+    [[menu.header]]
+    name = "Sobre mí"
+    title = "About"
+    url = "/about/"
+    weight = 6.5
+  [[menu.header]]
+    name = "Contacto"
+    title = "Contacto"
+    url = "/contact/"
+    weight = 7
     
   # Configure footer  
   [[menu.footer]]
@@ -147,11 +160,6 @@ enableEmoji = true
     title = "Licencia"
     url = "/licencia/"
     weight = 1
-  [[menu.footer]]
-    name = "Contacto"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
   [[menu.footer]]
     name = "Colaboradores"
     title = "Colaboradores"

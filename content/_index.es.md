@@ -1,16 +1,16 @@
 ---
-action_label: Leer más &rarr;
-action_link: /about
+action_label: Blog &rarr;
+action_link: /blog
 action_type: text
-description: Sit down, relax, and learn.
+description: Estadística, Ciencia de Datos, deportes, R, Python y mucho más...
 image_left: false
 images:
-- img/revoir.jpg
+- img/ralcaraz2.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Stats & Data Science
+subtitle: Roberto J. Alcaraz Molina
 text_align_left: true
-title: Roberto J. Alcaraz Molina
+title: R Alcaraz
 type: home
 ---
 

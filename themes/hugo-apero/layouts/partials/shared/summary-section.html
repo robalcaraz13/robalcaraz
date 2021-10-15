@@ -30,7 +30,7 @@
       {{ with .Params.excerpt }}<p class="f6 lh-copy mv2 flex-auto">{{ . | markdownify | emojify }}</p>{{ end }}
       {{ if .Pages }}
       <!-- Ranges through content/posts/*.md -->
-      <h2 class="f5 ttu tracked mv2 pb0">In this section:</h2>
+      <h2 class="f5 ttu tracked mv2 pb0">En esta sección:</h2>
       <ul class="pa0 ml3 mv0">
       {{ range .RegularPages.ByWeight }}
         <li class="pl2"><p class="lh-solid measure-wide"><a class="" href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.subtitle }}: {{ . | markdownify }}{{ end }}</p></li>
@@ -39,7 +39,7 @@
       {{ end }}
       <footer class="w-100">
       <!--ensures section Params are respected-->
-      {{ if $root.Params.show_author_byline }}<p class="f7 db mv1">{{ if .Params.author }}Por {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+      {{ if $root.Params.show_author_byline }}<p class="f7 db mv1">{{ if .Params.author }}Por {{ .Params.author }}{{ end }}{{ with .Params.categories }} en{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
       {{ if $root.Params.show_post_date }}<p class="f7 db mv1">{{ .PublishDate.Format "2 January, 2006" }}</p>{{ end }}
     </footer>
     </div>
@@ -57,7 +57,7 @@
       {{ with .Params.excerpt }}<p class="f6 lh-copy mv2 flex-auto">{{ . | markdownify | emojify }}</p>{{ end }}
       {{ if .Pages }}
       <!-- Ranges through content/posts/*.md -->
-      <h2 class="f5 ttu tracked mv2 pb0">In this section:</h2>
+      <h2 class="f5 ttu tracked mv2 pb0">En esta sección:</h2>
       <ul class="pa0 ml3 mv0">
       {{ range .RegularPages.ByWeight }}
         <li class="pl2"><p class="lh-solid measure-wide"><a class="" href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.subtitle }}: {{ . | markdownify }}{{ end }}</p></li>
@@ -65,7 +65,7 @@
       </ul>
       {{ end }}
     <footer>
-      {{ if $root.Params.show_author_byline }}<p class="f7 db mv2">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+      {{ if $root.Params.show_author_byline }}<p class="f7 db mv2">{{ if .Params.author }}Por {{ .Params.author }}{{ end }}{{ with .Params.categories }} en{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
       {{ if $root.Params.show_post_date }}<p class="f7 db mv2">{{ .PublishDate.Format "2 January, 2006" }}</p>{{ end }}
     </footer>
   </div>
