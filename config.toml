@@ -128,22 +128,22 @@ enableEmoji = true
     title = "Blog"
     url = "/blog/"
     weight = 3
+  # [[menu.header]]
+  #   name = "Projects"
+  #   title = "Project Portfolio"
+  #   url = "/project/"
+  #   weight = 4
+  # [[menu.header]]
+  #   name = "A collection"
+  #   title = "A collection"
+  #   url = "/collection/"
+  #   weight = 5
+  # [[menu.header]]
+  #   name = "Elements"
+  #   title = "Element Page"
+  #   url = "/elements/"
+  #   weight = 6
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
-    weight = 4
-  [[menu.header]]
-    name = "A collection"
-    title = "A collection"
-    url = "/collection/"
-    weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
-    [[menu.header]]
     name = "Sobre mí"
     title = "About"
     url = "/about/"

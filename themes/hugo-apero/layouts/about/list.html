@@ -80,13 +80,23 @@
 
           <div class="pa1 pa2-ns tc ph4">
             <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.link_list_label }}</h5>
-            <ul class="list measure center ph4 pb4">
-            {{ range .Params.link_list }}
-              <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">
-                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-              </li>
-            {{ end }}
-            </ul>
+            <ul class="ul-edu fa-ul mb-0">
+            <li>
+              <i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">Máster en Estadística para la Ciencia de Datos, 2021</p>
+                <p class="institution">Universidad Carlos III de Madrid</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">Grado en Matemáticas, 2020</p>
+                <p class="institution">Universidad de Valencia</p>
+              </div>
+            </li>
+            
+          </ul>
           </div>
         </sidebar>
         {{ end }}

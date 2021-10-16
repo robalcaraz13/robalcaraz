@@ -1,6 +1,6 @@
 ---
 date: "2019-02-25T13:38:41-06:00"
-description: Si tienes cualquier duda o sugerencia respecto a cualquier cosa, puedes contactar conmigo mediante las cajas de la derecha :)
+description: Si tienes cualquier duda o sugerencia respecto a cualquier cosa, puedes contactar conmigo mediante las cajas de la derecha o mediante los links de aquí abajo :)
 draft: false
 formspree_form_id: xoqybbzr
 layout: split-right
